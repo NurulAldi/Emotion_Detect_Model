@@ -17,7 +17,7 @@ The model was built using Tensorflow Keras API and its architecture is shown bel
 | dense_1 (Dense)   | (None, 7)           | 903       |
 
 # Test Model Using real-time videos
-Haar Cascade model is used here in order to detect faces in a given frame, this is because the Emotion Detect model was built to detect emotion, not to find faces in a given frame.
+Haar Cascade model is used here in order to detect faces, this is because the Emotion Detect model was built to detect emotion, not to find faces.
 
 Run this code on your own machine and make sure it has camera, these are needed for the code to worked properly
 ```
